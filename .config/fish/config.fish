@@ -2,9 +2,6 @@ if status is-interactive
     # Commands to run in interactive sessions can go here
 end
 
-set -g theme_display_git no
-set -g theme_display_git_dirty no
-set -g theme_display_git_untracked no
 set -g theme_display_git_ahead_verbose yes
 set -g theme_display_git_dirty_verbose yes
 set -g theme_display_git_stashed_verbose yes
@@ -25,9 +22,9 @@ set -g theme_display_hostname ssh
 set -g theme_display_vi no
 set -g theme_display_date no
 set -g theme_display_cmd_duration yes
-set -g theme_title_display_process yes
 set -g theme_title_display_path no
-set -g theme_title_display_user yes
+set -g theme_title_display_process no
+set -g theme_title_display_user no
 set -g theme_title_use_abbreviated_path no
 set -g theme_date_format "+%a %H:%M"
 set -g theme_avoid_ambiguous_glyphs yes
